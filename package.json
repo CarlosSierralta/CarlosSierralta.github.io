@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_curso",
+  "version": "1.0.0",
+  "description": "Visualización de los 10 aeropuertos más grandes del mundo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Proyecto Curso FAU\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos Sierralta",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "http-serve": "^1.0.1",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.5.1",
+    "read-excel-file": "^4.0.1",
+    "require": "^2.4.20",
+    "styles": "^0.2.1",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "assets": "^3.0.1",
+    "d3": "^5.9.7",
+    "mapbox": "^1.0.0-beta10"
+  }
+}

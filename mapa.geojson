@@ -1,0 +1,2005 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 1,
+                "Region": "NORTEAMERICA",
+                "IATA": "ATL",
+                "Ciudad": "ATLANTA GA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 89292748,
+                "pasajeros2011": 92365860,
+                "cambioporcentual": "3.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.42,
+                    33.64
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 2,
+                "Region": "ASIA PACIFICO",
+                "IATA": "PEK",
+                "Ciudad": "BEIJING",
+                "Pais": "CHINA",
+                "pasajeros2010": 73913402,
+                "pasajeros2011": 77403668,
+                "cambioporcentual": "4.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.58,
+                    40.08
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 3,
+                "Region": "EUROPA",
+                "IATA": "LHR",
+                "Ciudad": "LONDON",
+                "Pais": "GRAN BRETAÑA",
+                "pasajeros2010": 65884143,
+                "pasajeros2011": 69433565,
+                "cambioporcentual": "5.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.47,
+                    51.477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 4,
+                "Region": "NORTEAMERICA",
+                "IATA": "ORD",
+                "Ciudad": "CHICAGO IL",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 66904971,
+                "pasajeros2011": 66561023,
+                "cambioporcentual": "-0.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9,
+                    41.98
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 5,
+                "Region": "ASIA PACIFICO",
+                "IATA": "HND",
+                "Ciudad": "TOKYO",
+                "Pais": "JAPON",
+                "pasajeros2010": 64117894,
+                "pasajeros2011": 62263025,
+                "cambioporcentual": "-3.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.78,
+                    35.55
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 6,
+                "Region": "NORTEAMERICA",
+                "IATA": "LAX",
+                "Ciudad": "LOS ANGELES CA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 58995672,
+                "pasajeros2011": 61848449,
+                "cambioporcentual": "4.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.94
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 7,
+                "Region": "EUROPA",
+                "IATA": "CDG",
+                "Ciudad": "PARIS",
+                "Pais": "FRANCIA",
+                "pasajeros2010": 58166563,
+                "pasajeros2011": 60970551,
+                "cambioporcentual": "4.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.54,
+                    49.009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 8,
+                "Region": "NORTEAMERICA",
+                "IATA": "DFW",
+                "Ciudad": "DALLAS/FORT WORTH TX",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 56905066,
+                "pasajeros2011": 57806152,
+                "cambioporcentual": "1.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.03,
+                    32.89
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 9,
+                "Region": "EUROPA",
+                "IATA": "FRA",
+                "Ciudad": "FRANKFURT",
+                "Pais": "ALEMANIA",
+                "pasajeros2010": 53009221,
+                "pasajeros2011": 56436255,
+                "cambioporcentual": "6.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.54,
+                    50.02
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 10,
+                "Region": "ASIA PACIFICO",
+                "IATA": "HKG",
+                "Ciudad": "HONG KONG",
+                "Pais": "HONG KONG",
+                "pasajeros2010": 50359536,
+                "pasajeros2011": 53314213,
+                "cambioporcentual": "5.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.914,
+                    22.308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 11,
+                "Region": "NORTEAMERICA",
+                "IATA": "DEN",
+                "Ciudad": "DENVER CO",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 52209203,
+                "pasajeros2011": 52699298,
+                "cambioporcentual": "0.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.673,
+                    39.861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 12,
+                "Region": "MEDIO ORIENTE",
+                "IATA": "DXB",
+                "Ciudad": "DUBAI",
+                "Pais": "EMIRATOS ARABES",
+                "pasajeros2010": 47180628,
+                "pasajeros2011": 50977960,
+                "cambioporcentual": "7.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.364,
+                    25.252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 13,
+                "Region": "ASIA PACIFICO",
+                "IATA": "JKT",
+                "Ciudad": "JAKARTA",
+                "Pais": "INDONESIA",
+                "pasajeros2010": 43981022,
+                "pasajeros2011": 50446618,
+                "cambioporcentual": "14.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8,
+                    -6.167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 14,
+                "Region": "EUROPA",
+                "IATA": "AMS",
+                "Ciudad": "AMSTERDAM",
+                "Pais": "HOLANDA",
+                "pasajeros2010": 45211749,
+                "pasajeros2011": 49754910,
+                "cambioporcentual": "9.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.763,
+                    52.308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 15,
+                "Region": "EUROPA",
+                "IATA": "MAD",
+                "Ciudad": "MADRID",
+                "Pais": "ESPAÑA",
+                "pasajeros2010": 49842726,
+                "pasajeros2011": 49644302,
+                "cambioporcentual": "-0.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.566,
+                    40.493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 16,
+                "Region": "ASIA PACIFICO",
+                "IATA": "BKK",
+                "Ciudad": "BANGKOK",
+                "Pais": "TAILANDIA",
+                "pasajeros2010": 42784967,
+                "pasajeros2011": 47910744,
+                "cambioporcentual": "10.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.747,
+                    13.681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 17,
+                "Region": "NORTEAMERICA",
+                "IATA": "JFK",
+                "Ciudad": "NEW YORK NY",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 46493667,
+                "pasajeros2011": 47854283,
+                "cambioporcentual": "2.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.778,
+                    40.639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 18,
+                "Region": "ASIA PACIFICO",
+                "IATA": "SIN",
+                "Ciudad": "SINGAPORE",
+                "Pais": "SINGAPUR",
+                "pasajeros2010": 42038777,
+                "pasajeros2011": 46543845,
+                "cambioporcentual": "9.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.994,
+                    1.35
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 19,
+                "Region": "ASIA PACIFICO",
+                "IATA": "CAN",
+                "Ciudad": "GUANGZHOU",
+                "Pais": "CHINA",
+                "pasajeros2010": 40975253,
+                "pasajeros2011": 45400156,
+                "cambioporcentual": "9.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.298,
+                    23.392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 20,
+                "Region": "NORTEAMERICA",
+                "IATA": "LAS",
+                "Ciudad": "LAS VEGAS NV",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 39757359,
+                "pasajeros2011": 41479572,
+                "cambioporcentual": "4.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.152,
+                    36.08
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 21,
+                "Region": "ASIA PACIFICO",
+                "IATA": "PVG",
+                "Ciudad": "SHANGHAI",
+                "Pais": "CHINA",
+                "pasajeros2010": 40387640,
+                "pasajeros2011": 41450211,
+                "cambioporcentual": "2.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.805,
+                    31.143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 22,
+                "Region": "NORTEAMERICA",
+                "IATA": "SFO",
+                "Ciudad": "SAN FRANCISCO CA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 39254110,
+                "pasajeros2011": 40907389,
+                "cambioporcentual": "4.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122375,
+                    37.619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 23,
+                "Region": "NORTEAMERICA",
+                "IATA": "PHX",
+                "Ciudad": "PHOENIX AZ",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 38552409,
+                "pasajeros2011": 40565677,
+                "cambioporcentual": "5.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.011,
+                    33.434
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 24,
+                "Region": "NORTEAMERICA",
+                "IATA": "IAH",
+                "Ciudad": "HOUSTON TX",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 40475669,
+                "pasajeros2011": 40170844,
+                "cambioporcentual": "-0.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95341,
+                    29.984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 25,
+                "Region": "NORTEAMERICA",
+                "IATA": "CLT",
+                "Ciudad": "CHARLOTTE NC",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 38143078,
+                "pasajeros2011": 39043708,
+                "cambioporcentual": "2.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.95,
+                    35.213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 26,
+                "Region": "NORTEAMERICA",
+                "IATA": "MIA",
+                "Ciudad": "MIAMI FL",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 35698025,
+                "pasajeros2011": 38314389,
+                "cambioporcentual": "6.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.29,
+                    25.795
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 27,
+                "Region": "EUROPA",
+                "IATA": "MUC",
+                "Ciudad": "MUNICH",
+                "Pais": "ALEMANIA",
+                "pasajeros2010": 34721605,
+                "pasajeros2011": 37763701,
+                "cambioporcentual": "8.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.786,
+                    48.353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 28,
+                "Region": "ASIA PACIFICO",
+                "IATA": "KUL",
+                "Ciudad": "KUALA LUMPUR",
+                "Pais": "MALASIA",
+                "pasajeros2010": 34087636,
+                "pasajeros2011": 37670586,
+                "cambioporcentual": "9.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.709,
+                    2.745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 29,
+                "Region": "EUROPA",
+                "IATA": "FCO",
+                "Ciudad": "ROME",
+                "Pais": "ITALIA",
+                "pasajeros2010": 36227778,
+                "pasajeros2011": 37651222,
+                "cambioporcentual": "3.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.25,
+                    41.804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 30,
+                "Region": "EUROPA",
+                "IATA": "IST",
+                "Ciudad": "ISTANBUL",
+                "Pais": "TURQUIA",
+                "pasajeros2010": 32165817,
+                "pasajeros2011": 37398221,
+                "cambioporcentual": "14.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.814,
+                    40.976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 31,
+                "Region": "ASIA PACIFICO",
+                "IATA": "SYD",
+                "Ciudad": "SYDNEY",
+                "Pais": "AUSTRALIA",
+                "pasajeros2010": 35992172,
+                "pasajeros2011": 36022614,
+                "cambioporcentual": "0.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151177,
+                    -33.946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 32,
+                "Region": "NORTEAMERICA",
+                "IATA": "MCO",
+                "Ciudad": "ORLANDO FL",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 34877507,
+                "pasajeros2011": 35356991,
+                "cambioporcentual": "1.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.308,
+                    28.429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 33,
+                "Region": "ASIA PACIFICO",
+                "IATA": "ICN",
+                "Ciudad": "INCHEON",
+                "Pais": "KOREA",
+                "pasajeros2010": 33605579,
+                "pasajeros2011": 35191825,
+                "cambioporcentual": "4.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.45,
+                    37.469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 34,
+                "Region": "ASIA PACIFICO",
+                "IATA": "DEL",
+                "Ciudad": "NEW DELHI",
+                "Pais": "INDIA",
+                "pasajeros2010": 28531607,
+                "pasajeros2011": 34729467,
+                "cambioporcentual": "17.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.112,
+                    28.568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 35,
+                "Region": "EUROPA",
+                "IATA": "BCN",
+                "Ciudad": "BARCELONA",
+                "Pais": "ESPAÑA",
+                "pasajeros2010": 29197135,
+                "pasajeros2011": 34387597,
+                "cambioporcentual": "15.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.078,
+                    41.497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 36,
+                "Region": "EUROPA",
+                "IATA": "LGW",
+                "Ciudad": "LONDON",
+                "Pais": "GRAN BRETAÑA",
+                "pasajeros2010": 31378644,
+                "pasajeros2011": 33668048,
+                "cambioporcentual": "6.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.19,
+                    51.148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 37,
+                "Region": "NORTEAMERICA",
+                "IATA": "EWR",
+                "Ciudad": "NEWARK NJ",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 33133852,
+                "pasajeros2011": 33577154,
+                "cambioporcentual": "1.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.168,
+                    40.692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 38,
+                "Region": "NORTEAMERICA",
+                "IATA": "YYZ",
+                "Ciudad": "TORONTO ON",
+                "Pais": "CANADA",
+                "pasajeros2010": 31937895,
+                "pasajeros2011": 33434199,
+                "cambioporcentual": "4.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.63,
+                    43.677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 39,
+                "Region": "ASIA PACIFICO",
+                "IATA": "SHA",
+                "Ciudad": "SHANGHAI",
+                "Pais": "CHINA",
+                "pasajeros2010": 31298812,
+                "pasajeros2011": 33112442,
+                "cambioporcentual": "5.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.336,
+                    31.197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 40,
+                "Region": "NORTEAMERICA",
+                "IATA": "MSP",
+                "Ciudad": "MINNEAPOLIS MN",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 32749649,
+                "pasajeros2011": 33074443,
+                "cambioporcentual": "1.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.221,
+                    44.882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 41,
+                "Region": "NORTEAMERICA",
+                "IATA": "SEA",
+                "Ciudad": "SEATTLE WA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 31553166,
+                "pasajeros2011": 32820060,
+                "cambioporcentual": "3.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.312,
+                    47.449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 42,
+                "Region": "NORTEAMERICA",
+                "IATA": "DTW",
+                "Ciudad": "DETROIT MI",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 32377064,
+                "pasajeros2011": 32419181,
+                "cambioporcentual": "0.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.353,
+                    42.212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 43,
+                "Region": "NORTEAMERICA",
+                "IATA": "PHL",
+                "Ciudad": "PHILADELPHIA PA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 30775271,
+                "pasajeros2011": 30839130,
+                "cambioporcentual": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.24,
+                    39.872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 44,
+                "Region": "ASIA PACIFICO",
+                "IATA": "BOM",
+                "Ciudad": "MUMBAI",
+                "Pais": "INDIA",
+                "pasajeros2010": 28137797,
+                "pasajeros2011": 30439122,
+                "cambioporcentual": "7.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.868,
+                    19.088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 45,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "GRU",
+                "Ciudad": "SAO PAULO",
+                "Pais": "BRASIL",
+                "pasajeros2010": 27432346,
+                "pasajeros2011": 30371131,
+                "cambioporcentual": "9.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.47,
+                    -23.432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 46,
+                "Region": "ASIA PACIFICO",
+                "IATA": "MNL",
+                "Ciudad": "MANILA",
+                "Pais": "FILIPINAS",
+                "pasajeros2010": 27148724,
+                "pasajeros2011": 29551394,
+                "cambioporcentual": "8.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.019,
+                    14.508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 47,
+                "Region": "ASIA PACIFICO",
+                "IATA": "CTU",
+                "Ciudad": "CHENGDU",
+                "Pais": "CHINA",
+                "pasajeros2010": 25805815,
+                "pasajeros2011": 29073990,
+                "cambioporcentual": "11.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.947,
+                    30.578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 48,
+                "Region": "NORTEAMERICA",
+                "IATA": "BOS",
+                "Ciudad": "BOSTON MA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 27429152,
+                "pasajeros2011": 28866313,
+                "cambioporcentual": "5.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.006,
+                    42.363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 49,
+                "Region": "ASIA PACIFICO",
+                "IATA": "SZX",
+                "Ciudad": "SHENZHEN",
+                "Pais": "CHINA",
+                "pasajeros2010": 26713610,
+                "pasajeros2011": 28245745,
+                "cambioporcentual": "5.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    41.84,
+                    37.978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 50,
+                "Region": "ASIA PACIFICO",
+                "IATA": "MEL",
+                "Ciudad": "MELBOURNE",
+                "Pais": "AUSTRALIA",
+                "pasajeros2010": 27731252,
+                "pasajeros2011": 28060111,
+                "cambioporcentual": "1.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.833,
+                    -37.673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 51,
+                "Region": "ASIA PACIFICO",
+                "IATA": "NRT",
+                "Ciudad": "TOKYO",
+                "Pais": "JAPON",
+                "pasajeros2010": 33815906,
+                "pasajeros2011": 28055772,
+                "cambioporcentual": "-20.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.386,
+                    35.765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 52,
+                "Region": "EUROPA",
+                "IATA": "ORY",
+                "Ciudad": "PARIS",
+                "Pais": "FRANCIA",
+                "pasajeros2010": 25203787,
+                "pasajeros2011": 27139076,
+                "cambioporcentual": "7.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.379,
+                    48.723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 53,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "MEX",
+                "Ciudad": "MEXICO CITY",
+                "Pais": "MEXICO",
+                "pasajeros2010": 24130535,
+                "pasajeros2011": 26368861,
+                "cambioporcentual": "8.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.072,
+                    19.436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 54,
+                "Region": "EUROPA",
+                "IATA": "DME",
+                "Ciudad": "MOSCOW",
+                "Pais": "RUSIA",
+                "pasajeros2010": 22253529,
+                "pasajeros2011": 25701610,
+                "cambioporcentual": "13.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.906,
+                    55.408
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 55,
+                "Region": "EUROPA",
+                "IATA": "AYT",
+                "Ciudad": "ANTALYA",
+                "Pais": "TURQUIA",
+                "pasajeros2010": 21857524,
+                "pasajeros2011": 25183142,
+                "cambioporcentual": "13.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.8,
+                    36.898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 56,
+                "Region": "ASIA PACIFICO",
+                "IATA": "TPE",
+                "Ciudad": "TAIPEI",
+                "Pais": "TAIWAN",
+                "pasajeros2010": 25114413,
+                "pasajeros2011": 24947551,
+                "cambioporcentual": "-0.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.232,
+                    25.077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 57,
+                "Region": "EUROPA",
+                "IATA": "ZRH",
+                "Ciudad": "ZURICH",
+                "Pais": "SUIZA",
+                "pasajeros2010": 22826942,
+                "pasajeros2011": 24283941,
+                "cambioporcentual": "6.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.549,
+                    47.464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 58,
+                "Region": "NORTEAMERICA",
+                "IATA": "LGA",
+                "Ciudad": "NEW YORK NY",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 23980687,
+                "pasajeros2011": 24028400,
+                "cambioporcentual": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.872,
+                    40.777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 59,
+                "Region": "NORTEAMERICA",
+                "IATA": "FLL",
+                "Ciudad": "FORT LAUDERDALE",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 22406810,
+                "pasajeros2011": 23348804,
+                "cambioporcentual": "4.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.153,
+                    26.072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 60,
+                "Region": "NORTEAMERICA",
+                "IATA": "IAD",
+                "Ciudad": "WASHINGTON",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 23447177,
+                "pasajeros2011": 23056291,
+                "cambioporcentual": "-1.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.46,
+                    38.947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 61,
+                "Region": "EUROPA",
+                "IATA": "PMI",
+                "Ciudad": "PALMA DE MALLORCA",
+                "Pais": "ESPAÑA",
+                "pasajeros2010": 21110092,
+                "pasajeros2011": 22723837,
+                "cambioporcentual": "7.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.7388,
+                    39.551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 62,
+                "Region": "EUROPA",
+                "IATA": "CPH",
+                "Ciudad": "COPENHAGEN",
+                "Pais": "DINAMARCA",
+                "pasajeros2010": 21452464,
+                "pasajeros2011": 22673477,
+                "cambioporcentual": "5.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.655,
+                    55.618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 63,
+                "Region": "EUROPA",
+                "IATA": "SVO",
+                "Ciudad": "MOSCOW",
+                "Pais": "RUSIA",
+                "pasajeros2010": 19329185,
+                "pasajeros2011": 22555309,
+                "cambioporcentual": "14.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.972,
+                    37.414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 64,
+                "Region": "NORTEAMERICA",
+                "IATA": "BWI",
+                "Ciudad": "BALTIMORE MD",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 21951650,
+                "pasajeros2011": 22395638,
+                "cambioporcentual": "2.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.668,
+                    39.175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 65,
+                "Region": "ASIA PACIFICO",
+                "IATA": "KMG",
+                "Ciudad": "KUNMING",
+                "Pais": "CHINA",
+                "pasajeros2010": 20194754,
+                "pasajeros2011": 22272776,
+                "cambioporcentual": "9.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.743,
+                    24.992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 66,
+                "Region": "EUROPA",
+                "IATA": "VIE",
+                "Ciudad": "VIENNA",
+                "Pais": "AUSTRIA",
+                "pasajeros2010": 19691206,
+                "pasajeros2011": 21106330,
+                "cambioporcentual": "6.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.57,
+                    48.11
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 67,
+                "Region": "EUROPA",
+                "IATA": "OSL",
+                "Ciudad": "OSLO",
+                "Pais": "NORUEGA",
+                "pasajeros2010": 19091113,
+                "pasajeros2011": 21092873,
+                "cambioporcentual": "9.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1,
+                    60.194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 68,
+                "Region": "MEDIO ORIENTE",
+                "IATA": "JED",
+                "Ciudad": "JEDDAH",
+                "Pais": "ARABIA SAUDITA",
+                "pasajeros2010": 17913975,
+                "pasajeros2011": 20929686,
+                "cambioporcentual": "14.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.156,
+                    21.679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 69,
+                "Region": "ASIA PACIFICO",
+                "IATA": "BNE",
+                "Ciudad": "BRISBANE",
+                "Pais": "AUSTRALIA",
+                "pasajeros2010": 20020966,
+                "pasajeros2011": 20589207,
+                "cambioporcentual": "2.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.117,
+                    -27.384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 70,
+                "Region": "NORTEAMERICA",
+                "IATA": "SLC",
+                "Ciudad": "SALT LAKE CITY UT",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 20987646,
+                "pasajeros2011": 20440913,
+                "cambioporcentual": "-2.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.977,
+                    40.788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 71,
+                "Region": "EUROPA",
+                "IATA": "DUS",
+                "Ciudad": "DUSSELDORF",
+                "Pais": "ALEMANIA",
+                "pasajeros2010": 18988489,
+                "pasajeros2011": 20339466,
+                "cambioporcentual": "6.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.766,
+                    51.289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 72,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "BOG",
+                "Ciudad": "BOGOTA",
+                "Pais": "COLOMBIA",
+                "pasajeros2010": 18827118,
+                "pasajeros2011": 20327901,
+                "cambioporcentual": "7.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.138,
+                    4.703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 73,
+                "Region": "EUROPA",
+                "IATA": "MXP",
+                "Ciudad": "MILAN",
+                "Pais": "ITALIA",
+                "pasajeros2010": 18947808,
+                "pasajeros2011": 19291427,
+                "cambioporcentual": "1.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.728,
+                    45.63
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 74,
+                "Region": "AFRICA",
+                "IATA": "GCJ",
+                "Ciudad": "JOHANNESBURG",
+                "Pais": "SUDAFRICA",
+                "pasajeros2010": 18565250,
+                "pasajeros2011": 19114384,
+                "cambioporcentual": "2.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.14,
+                    -25.986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 75,
+                "Region": "EUROPA",
+                "IATA": "ARN",
+                "Ciudad": "STOCKHOLM",
+                "Pais": "SUECIA",
+                "pasajeros2010": 16988614,
+                "pasajeros2011": 19088363,
+                "cambioporcentual": "11.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.918,
+                    59.652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 76,
+                "Region": "EUROPA",
+                "IATA": "MAN",
+                "Ciudad": "MANCHESTER",
+                "Pais": "GRAN BRETAÑA",
+                "pasajeros2010": 17873023,
+                "pasajeros2011": 18991503,
+                "cambioporcentual": "5.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2275,
+                    53.354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 77,
+                "Region": "NORTEAMERICA",
+                "IATA": "MDW",
+                "Ciudad": "CHICAGO IL",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 17647771,
+                "pasajeros2011": 18882549,
+                "cambioporcentual": "6.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.752,
+                    41.786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 78,
+                "Region": "NORTEAMERICA",
+                "IATA": "DCA",
+                "Ciudad": "WASHINGTON DC",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 18105802,
+                "pasajeros2011": 18811335,
+                "cambioporcentual": "3.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.037,
+                    38.852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 79,
+                "Region": "EUROPA",
+                "IATA": "BRU",
+                "Ciudad": "BRUSSELS",
+                "Pais": "BELGICA",
+                "pasajeros2010": 17149416,
+                "pasajeros2011": 18756885,
+                "cambioporcentual": "8.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.484,
+                    50.901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 80,
+                "Region": "EUROPA",
+                "IATA": "DUB",
+                "Ciudad": "DUBLIN",
+                "Pais": "IRLANDA",
+                "pasajeros2010": 18431678,
+                "pasajeros2011": 18735944,
+                "cambioporcentual": "1.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.27,
+                    53.421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 81,
+                "Region": "ASIA PACIFICO",
+                "IATA": "GMP",
+                "Ciudad": "SEOUL",
+                "Pais": "KOREA",
+                "pasajeros2010": 17575244,
+                "pasajeros2011": 18513982,
+                "cambioporcentual": "5.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.79,
+                    37.558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 82,
+                "Region": "MEDIO ORIENTE",
+                "IATA": "DOH",
+                "Ciudad": "DOHA",
+                "Pais": "QATAR",
+                "pasajeros2010": 15863292,
+                "pasajeros2011": 18202649,
+                "cambioporcentual": "12.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.565,
+                    25.261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 83,
+                "Region": "EUROPA",
+                "IATA": "STN",
+                "Ciudad": "LONDON",
+                "Pais": "GRAN BRETAÑA",
+                "pasajeros2010": 18574204,
+                "pasajeros2011": 18046777,
+                "cambioporcentual": "-2.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.235,
+                    51.885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 84,
+                "Region": "ASIA PACIFICO",
+                "IATA": "HGH",
+                "Ciudad": "HANGZHOU",
+                "Pais": "CHINA",
+                "pasajeros2010": 17068585,
+                "pasajeros2011": 17512034,
+                "cambioporcentual": "2.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.434,
+                    30.229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 85,
+                "Region": "ASIA PACIFICO",
+                "IATA": "CJU",
+                "Ciudad": "JEJU",
+                "Pais": "KOREA",
+                "pasajeros2010": 15724770,
+                "pasajeros2011": 17202278,
+                "cambioporcentual": "8.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.493,
+                    33.511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 86,
+                "Region": "NORTEAMERICA",
+                "IATA": "YVR",
+                "Ciudad": "VANCOUVER BC",
+                "Pais": "CANADA",
+                "pasajeros2010": 16926870,
+                "pasajeros2011": 17193080,
+                "cambioporcentual": "1.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.184,
+                    49.194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 87,
+                "Region": "EUROPA",
+                "IATA": "TXL",
+                "Ciudad": "BERLIN",
+                "Pais": "ALEMANIA",
+                "pasajeros2010": 15025600,
+                "pasajeros2011": 16919820,
+                "cambioporcentual": "11.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.288,
+                    52.56
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 88,
+                "Region": "NORTEAMERICA",
+                "IATA": "SAN",
+                "Ciudad": "SAN DIEGO CA",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 16901322,
+                "pasajeros2011": 16836027,
+                "cambioporcentual": "-0.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.189,
+                    32.733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 89,
+                "Region": "NORTEAMERICA",
+                "IATA": "TPA",
+                "Ciudad": "TAMPA FL",
+                "Pais": "ESTADOS UNIDOS",
+                "pasajeros2010": 16645765,
+                "pasajeros2011": 16732051,
+                "cambioporcentual": "0.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.533,
+                    27.975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 90,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "CGH",
+                "Ciudad": "SAO PAULO",
+                "Pais": "BRASIL",
+                "pasajeros2010": 15441789,
+                "pasajeros2011": 16687731,
+                "cambioporcentual": "7.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.655,
+                    -23.626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 91,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "BSB",
+                "Ciudad": "BRASILIA",
+                "Pais": "BRASIL",
+                "pasajeros2010": 14824113,
+                "pasajeros2011": 15801122,
+                "cambioporcentual": "6.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -47.918,
+                    -15.871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 92,
+                "Region": "ASIA PACIFICO",
+                "IATA": "CTS",
+                "Ciudad": "SAPPORO",
+                "Pais": "JAPON",
+                "pasajeros2010": 16745235,
+                "pasajeros2011": 15773073,
+                "cambioporcentual": "-6.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.692,
+                    42.775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 93,
+                "Region": "ASIA PACIFICO",
+                "IATA": "XMN",
+                "Ciudad": "XIAMEN",
+                "Pais": "CHINA",
+                "pasajeros2010": 13248367,
+                "pasajeros2011": 15753183,
+                "cambioporcentual": "15.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.127,
+                    24.544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 94,
+                "Region": "MEDIO ORIENTE",
+                "IATA": "RUH",
+                "Ciudad": "RIYADH",
+                "Pais": "ARABIA SAUDITA",
+                "pasajeros2010": 14136837,
+                "pasajeros2011": 15432950,
+                "cambioporcentual": "8.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.698,
+                    24.957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 95,
+                "Region": "ASIA PACIFICO",
+                "IATA": "FUK",
+                "Ciudad": "FUKUOKA",
+                "Pais": "JAPON",
+                "pasajeros2010": 16404617,
+                "pasajeros2011": 15431078,
+                "cambioporcentual": "-6.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.45,
+                    33.58
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 96,
+                "Region": "LATINOAMERICA Y CARIBE",
+                "IATA": "GIG",
+                "Ciudad": "RIO DE JANEIRO",
+                "Pais": "BRASIL",
+                "pasajeros2010": 12605637,
+                "pasajeros2011": 15184350,
+                "cambioporcentual": "17.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.244,
+                    -22.808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 97,
+                "Region": "EUROPA",
+                "IATA": "HEL",
+                "Ciudad": "HELSINKI",
+                "Pais": "FINLANDIA",
+                "pasajeros2010": 12866036,
+                "pasajeros2011": 14851675,
+                "cambioporcentual": "13.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.317,
+                    24.963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 98,
+                "Region": "EUROPA",
+                "IATA": "LIS",
+                "Ciudad": "LISBON",
+                "Pais": "PORTUGAL",
+                "pasajeros2010": 14058751,
+                "pasajeros2011": 14791260,
+                "cambioporcentual": "5.0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.135,
+                    38.781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 99,
+                "Region": "EUROPA",
+                "IATA": "ATH",
+                "Ciudad": "ATHENS",
+                "Pais": "GRECIA",
+                "pasajeros2010": 15390156,
+                "pasajeros2011": 14428032,
+                "cambioporcentual": "-6.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.944,
+                    37.936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ranking": 100,
+                "Region": "ASIA PACIFICO",
+                "IATA": "AKL",
+                "Ciudad": "AUCKLAND",
+                "Pais": "NUEVA ZELANDA",
+                "pasajeros2010": 13705116,
+                "pasajeros2011": 14012329,
+                "cambioporcentual": "2.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.791,
+                    -37.008
+                ]
+            }
+        }
+    ]
+}
