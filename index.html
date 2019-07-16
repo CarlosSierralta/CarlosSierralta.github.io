@@ -1,1 +1,206 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>100 aeropuertos más grandes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+    <link rel="stylesheet" href="assets/css/highlight.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- CSS para por Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+
+    <!-- CSS para dar tamaño al mapa -->
+    <style>
+        #myMap {
+            height: 600px;
+        }
+    </style>
+</head>
+<!-- se crea un html con container de encabezado y título-->
+
+<body>
+    <div class="content-demo">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="intro">
+                        <h2 class="text-center">100 aeropuertos más grandes</h2>
+                    </div>
+                </div>
+
+                <!-- se crea una estructura html con 1 container central (#MyMap) y 2 accesorios (#Info y #Fuentes) -->
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="intro">
+                        <div id="myMap"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div id="info" class="col-lg-12" style="height: 40vh;">
+                            <p>Info</p>
+                        </div>
+                        <div id="Leyenda" class="col-lg-12" style="height: 45vh;">
+                            <p>Leyenda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!--<script src=".script-compiled.js" charset="utf-8"></script>
+    <script src="//d3js.org/d3.v3.min.js"></script>-->
+    <script src="https://bl.ocks.org/aubergene/raw/4723857/circle-legend.js"></script>
+    <script type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Requerido por Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script> -->
+    <!-- Script de prueba-->
+    <script>
+        // Definir atributos iniciales para el Mapa
+        const MAP_ZOOM = 1
+        const MAP_CENTER = [0, 0]
+
+        // Crear instancia del Mapa
+        var map = L.map('myMap').setView(MAP_CENTER, MAP_ZOOM)
+
+        // Crear capa de teselas y Copyright del Mapa
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map)
+
+        /*Se definen funciones para 3 atributos de marcadores (tipo: marcador circular, tamaño: radio escalado según cantidad de pasajeros y estilo: color y opacidad de borde y relleno) */
+        function circulo(geoJsonPoint, latlng) {
+            return L.circleMarker(latlng)
+        }
+
+        function tamano(geoJsonPoint) {
+            return {
+                radius: (geoJsonPoint.properties.pasajeros2011 / 1500000),
+                fillColor: "#D41A00", // color vermellón japonés, de mi gusto en #HEX
+                stroke: "#D41A00",
+                weight: 0.5,
+                opacity: 0.5,
+                fillOpacity: 0.25
+            }
+        }
+        /* se genera función para obtener datos del documento geoJson y se genera un arreglo del mismo, con los atributos a mostrar en popup de container #MyMap y en el container */
+        function MostrarDato(feature, layer) {
+            if (feature.properties) {
+                var dato_a_mostrar = `<p>
+                    <h5>Ciudad: ${feature.properties.Ciudad}</h5><br/>
+                    <span><b>Código IATA</b>: ${feature.properties.IATA}</span><br/>
+                    <span><b>Región</b>: ${feature.properties.Region}</span><br/>
+                    <span><b>País</b>: ${feature.properties.Pais}</span><br/>
+                    <span><b>Ranking</b>: ${feature.properties.ranking}</span><br/>
+                    <span><b>Pasajeros 2010</b>: ${(feature.properties.pasajeros2010 / 1000000).toFixed(1)} MM </span><br/>
+                    <span><b>Pasajeros 2011</b>: ${(feature.properties.pasajeros2011 / 1000000).toFixed(1)} MM </span><br/>
+                    <span><b>Cambio porcentual</b>: ${feature.properties.cambioporcentual}</span><br/>
+                    <span><b>Coordenadas (lng,lat)</b>: ${feature.geometry.coordinates}</span><br/>
+                    </p>`
+
+                layer.bindPopup(dato_a_mostrar);
+
+            }
+        }
+
+
+        /*cargar datos ajustados a cantidad de pasajeros en el #MyMap y crear un evento popup en #MyMap que además llene el container #info   */
+        d3.json('./mapa.geojson')
+            .then(function (geojson) {
+                var markerlayer = L.geoJson(geojson, {
+                    onEachFeature: MostrarDato,
+                    pointToLayer: circulo,
+                    style: tamano
+
+
+                })
+                    .addTo(map)
+
+                markerlayer.on("click", function (event) {
+
+                    $("#info").html(event.layer.getPopup().getContent())
+
+                });
+
+                
+                //LEYENDA
+                    // agregar objeto svg para la leyenda
+                var height = 250
+                var width = 250
+                var svg = d3.select("#Leyenda")
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+
+                // Definición de escala
+                var size = d3.scaleLinear()
+                    .domain([0, 92.4])  // What's in the data, let's say it is percentage
+                    .range([0, 100])  // Size in pixel
+
+                // añadir leyenda: circulos marcadores
+                var valoresleyenda = [14, 50, 92.4] //mínimo y máximo valor de datos de pasajeros2011, 50 referencial
+                var xCircle = 100
+                var xLabel = 225
+                var yCircle = 200
+                svg
+                    .selectAll("leyenda")
+                    .data(valoresleyenda)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", xCircle)
+                    .attr("cy", function (d) { return yCircle - size(d) })
+                    .attr("r", function (d) { return size(d) })
+                    .style("fill", "none")
+                    .attr("stroke", "#D41A00")
+
+                // Añadir segmentos de leyenda
+                svg
+                    .selectAll("leyenda")
+                    .data(valoresleyenda)
+                    .enter()
+                    .append("line")
+                    .attr('x1', function (d) { return xCircle + size(d) })
+                    .attr('x2', xLabel)
+                    .attr('y1', function (d) { return yCircle - size(d) })
+                    .attr('y2', function (d) { return yCircle - size(d) })
+                    .attr('stroke', '"#D41A00"')
+                    .style('stroke-dasharray', ('2,2'))
+
+                // añadir etiquetas
+                svg
+                    .selectAll("leyenda")
+                    .data(valoresleyenda)
+                    .enter()
+                    .append("text")
+                    .attr('x', xLabel)
+                    .attr('y', function (d) { return yCircle - size(d) })
+                    .text(function (d) { return d })
+                    .style("font-size", 10)
+                    .attr('alignment-baseline', 'left')
+ 
+
+            })
+
+    </script>
+
+
+</body>
+
+</html>
