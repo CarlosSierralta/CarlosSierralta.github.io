@@ -16,7 +16,7 @@
     "http-serve": "^1.0.1",
     "jquery": "^3.4.1",
     "leaflet": "^1.5.1",
-    "read-excel-file": "^4.0.1",
+    "read-excel-file": "^5.5.0",
     "require": "^2.4.20",
     "styles": "^0.2.1",
     "utils": "^0.3.1"
